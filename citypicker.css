@@ -15,7 +15,6 @@
 ul.fix {
   list-style: none;
   list-style-type: none; 
-  overflow: hidden; 
   width:350px; 
 }
 
@@ -29,4 +28,7 @@ ul.fix {
 }
 
 .citypicker-menu a{color: #61646E; text-decoration: none;}
-.citypicker-menu ul li a:hover{background: none; color: #999; text-decoration: underline;}
+.citypicker-menu li > a:hover {
+  background-color: transparent; background-image: none; color: #999; text-decoration: underline;
+  filter: none;
+  }
