@@ -1,0 +1,32 @@
+
+.citypicker-menu dt{
+  clear: both;
+  float: left;
+  width: 60px;
+  color: #999;
+}
+
+.citypicker-menu dd{
+  margin-left: 60px;
+  margin-right: -10px;
+  -webkit-margin-start: 40px;  
+}
+
+ul.fix {
+  list-style: none;
+  list-style-type: none; 
+  overflow: hidden; 
+  width:350px; 
+}
+
+.citypicker-menu ul li{
+  float: left; 
+  width: 48px;
+  font-size: 12px;
+  margin: 0 5px 1px 0;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.citypicker-menu a{color: #61646E; text-decoration: none;}
+.citypicker-menu ul li a:hover{background: none; color: #999; text-decoration: underline;}
